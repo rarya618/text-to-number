@@ -18,8 +18,12 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
+        <h1 className="text-2xl text-purple-600">Tailwind is working!</h1>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+        <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+          Convert
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
